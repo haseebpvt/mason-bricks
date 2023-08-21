@@ -16,5 +16,14 @@ void main() {
         isA<UseCase<{{type}}, {{filename.pascalCase()}}UseCaseParam>>(),
       );
     });
+
+    test('return right with data when success', () async {
+      // arrange
+
+      // act
+
+      // assert
+      
+    });
   });
 }
