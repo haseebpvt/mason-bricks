@@ -4,6 +4,9 @@
 bricks:
   usecase:
     path: ./usecase/
+  
+  usecase_packages:
+    path: ./usecase_packages/
 
   welcome:
     path: ./welcome/
