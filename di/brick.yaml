@@ -1,0 +1,8 @@
+name: di
+description: A brick that setup folders and fies for dependency injection with Flutter get_it package.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.50 <0.1.0"
+
