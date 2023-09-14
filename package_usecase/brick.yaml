@@ -26,17 +26,17 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
-  path:
-    type: string
-    description: Path to UseCase
-    default: default
-    prompt: Give the path until UseCase file
-
   package_name:
     type: string
-    description: Root package name
-    default: user_repository
-    prompt: What should be the file neame of the package?
+    description: Name of the package
+    default: itinerary_data
+    prompt: Name of the package you created with dart create --template=package <package_name>?
+
+  usecase_folder_name:
+    type: string
+    description: Name of the folder containing the usecase
+    default: itinerary
+    prompt: What should be the name of the package containing the Use Case?
 
   filename:
     type: string
